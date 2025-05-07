@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LDLC UNICT</title>
+  <link rel="stylesheet" href="mhw3.css">
+  <script src="mhw3.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <div class="logo">
+          <a href="mhw1.html"><img src="Logo.png"></a>
+        </div>
+        <div class="search-bar">
+          <select>
+            <option>TUTTO</option>
+            <option>Informatica</option>
+            <option>Immagine & suono</option>
+            <option >Telefonia & auto</option>
+            <option >Giochi & Hobby</option>
+            <option >Prodotti smart</option>
+            <option >Materiali di consumo</option>
+            <option >Cavi</option>
+        </select>
+        <input type="text" placeholder="Cerca un prodotto, una marca, una categoria...">
+        <button>
+          🔎
+        </button>
+        </div>
+        <div class="user-actions">
+          <a href="#" class="action-item"><i class="user"></i>Account</a>
+          <a href="#" class="action-item cart-icon">
+            <i class="shopping-cart"></i>Carrello
+            <span class="cart-badge hidden">0</span>
+            <div class="cart-dropdown hidden">
+              <h3>Oggetti nel carrello</h3>
+              <div class="cart-items-container">
+              </div>
+              <div class="cart-total">
+                <strong>Totale: </strong><span class="cart-total-price">€0.00</span>
+              </div>
+              <button class="checkout-btn">Procedi all'acquisto</button>
+            </div>
+          </a>
+        </div>
+        <button id="mobile-menu-toggle" aria-label="Menu">
+          ≡
+        </button>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul id="main-menu">
+          <li><a href="#">I NOSTRI PRODOTTI</a></li>
+          <li><a href="#">CONFIGURATORE PC</a></li>
+          <li><a href="#">NOVITA</a></li>
+          <li><a href="#">PROMOZIONI</a></li>
+          <li><a href="#">CHI SIAMO </a></li>
+          <li><a href="#">BISOGNO DI AIUTO</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <div class="container">
+      <div class="banner-content">
+        <img src="immagine.jpg">
+      </div>
+      <div class="banner-dots-container">
+      </div>
+      <div class="banner-bar">
+        <ul id="banner-menu">
+          <li>OFFERTA DEL GIORNO</li>
+          <li>SECONDA VITA</li>
+          <li class="active">OFFERTE FLASH</li>
+          <li>IL CONFIGURATORE</li>
+          <li>LDLC PC</li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <section class="featured-categories">
+      <div class="container">
+        <h2 class="section-title">Categorie Popolari</h2>
+        <div class="category-grid">
+          <a href="#" class="category-card">
+            <h3>Periferica PC</h3>
+            <div class="category-img">
+              <img src="monitor.png" alt="Periferica PC">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Smartphone</h3>
+            <div class="category-img">
+              <img src="smartphone.png" alt="Smartphone">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Giochi & Hobby</h3>
+            <div class="category-img">
+              <img src="console.jpg" alt="Giochi & Hobby">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Componeti</h3>
+            <div class="category-img">
+              <img src="componenti.jpg" alt="componeti">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Televisione</h3>
+            <div class="category-img">
+              <img src="televisore.png" alt="televisore">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Audio digitale</h3>
+            <div class="category-img">
+              <img src="audio.png" alt="cuffie">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Tablet</h3>
+            <div class="category-img">
+              <img src="tablet.png" alt="tablet">
+            </div>
+          </a>
+          <a href="#" class="category-card">
+            <h3>Computer Desktop</h3>
+            <div class="category-img">
+              <img src="pc.png" alt="PC">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Discover">
+      <div class="container">
+      <h2 class="section-title">Da Scoprire</h2>
+      <div class="card-grid">
+        <a href="#" class="card telelavoro">
+          <div class="card-content">
+            <h2>Telelavoro</h2>
+            <span class="card-btn">SCOPRIRE ›</span>
+          </div>
+        </a>
+        <a href="#" class="card home">
+          <div class="card-content">
+            <h2>Home Sweat Home</h2>
+            <span class="card-btn">SCOPRIRE ›</span>
+          </div>
+        </a>
+        <a href="#" class="card sound">
+          <div class="card-content">
+            <h2>Il miglior suono</h2>
+            <span class="card-btn">SCOPRIRE ›</span>
+          </div>
+        </a>
+        <a href="#" class="card play">
+          <div class="card-content">
+            <h2>Let's play</h2>
+            <span class="card-btn">SCOPRIRE ›</span>
+          </div>
+        </a>
+        <a href="#" class="card second-life">
+          <div class="card-content">
+            <h2>Seconda vita</h2>
+            <span class="card-btn">SCOPRIRE ›</span>
+          </div>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section class="New-Arrivals">
+      <div class="container">
+        <h2 class="section-title">Novità</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="4070.png" alt="Rtx 4070">
+            </div>
+            <div class="product-info">
+              <h3>Scheda Video NVIDIA RTX 4070</h3>
+              <div class="product-price">€699.99</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="jpl.png" alt="JBL">
+            </div>
+            <div class="product-info">
+              <h3>Casse JBL</h3>
+              <div class="product-price">150.79</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="msi.png" alt="monitor msi">
+            </div>
+            <div class="product-info">
+              <h3>Monitor msi</h3>
+              <div class="product-price">€250.58</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="ryzen.png" alt="Ryzen 9">
+            </div>
+            <div class="product-info">
+              <h3>Ryzen 9 9950x3d</h3>
+              <div class="product-price">€848.99</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="mouse.png" alt="mouse benq">
+            </div>
+            <div class="product-info">
+              <h3>Mouse benq</h3>
+              <div class="product-price">€35.79</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card hidden">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="minipc.png" alt="mini pc">
+            </div>
+            <div class="product-info">
+              <h3>mini pc</h3>
+              <div class="product-price">€379.89</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card hidden">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="casse.png" alt="casse">
+            </div>
+            <div class="product-info">
+              <h3>casse per pc</h3>
+              <div class="product-price">€151.99</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card hidden">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="hub.png" alt="Hub ethernet">
+            </div>
+            <div class="product-info">
+              <h3>Hub ethernet gigabit</h3>
+              <div class="product-price">€39.99</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card hidden">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="arc.png" alt="Intel arc b580">
+            </div>
+            <div class="product-info">
+              <h3>Scheda Video Intel arc b580</h3>
+              <div class="product-price">€324.00</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card hidden">
+            <div class="product-badge">New</div>
+            <div class="product-img">
+              <img src="tappetino.png" alt="tappetino mouse">
+            </div>
+            <div class="product-info">
+              <h3>Tappetino mouse</h3>
+              <div class="product-price">€37.99</div>
+              <div class="product-actions">
+                <button class="btn-primary">Aggiungi al carrello</button>
+                <button class="btn-compare">Compara</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="vedi-di-piu">VEDI DI PIÙ</button>
+      <button class="hidden vedi-di-meno">VEDI DI MENO</button>
+    </section>
+  </main>
+
+  
+  <div id="chatbot">
+    <div id="chatbot-icon">?</div>
+    <div id="chatbot-text">Fai una domanda</div>
+</div>
+
+  <div id="chatbot-window" class="hidden">
+      <div class="chat-header">
+          <span>Assistente</span>
+          <button id="chatbot-close">Chiudi</button>
+      </div>
+      <div class="chat-messages">
+      </div>
+      <form id="chat-form">
+          <input type="text" id="chat-input" placeholder="Scrivi un messaggio..." required>
+          <button type="submit">Invia</button>
+      </form>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h4><u>CHI SIAMO?</u></h4>
+            <ul>
+              <li><a href="#">Il gruppo LDLC</a></li>
+              <li><a href="#">CGV / Recensioni</a></li>
+              <li><a href="#">Dati personali e Politica dei Cookies</a></li>
+              <li><a href="#">Gestire i miei cookie</a></li>
+              <li><a href="#">Informazioni legali</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4><u>BISOGNO D'AIUTO?</u></h4>
+            <ul>
+              <li><a href="#">Domande frequenti</a></li>
+              <li><a href="#">Modalità di consegna</a></li>
+              <li><a href="#">Metodi di pagamento</a></li>
+              <li><a href="#">Garanzie</a></li>
+              <li><a href="#">Richiesta di restituzione</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4><u>I NOSTRI CONTATTI</u></h4>
+            <div class="email-box">
+              <a href="mailto:samuele.solino@studium.unict.it" class="email-button">PER E-MAIL</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; Sito realizzato da <a href="https://github.com/SamueleSolino"><u>Samuele Solino</u></a> per Web Programming</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
